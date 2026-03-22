@@ -12,6 +12,8 @@ namespace AnimarsCatcher
         private float mAniSpeed = 5f;
         private static readonly int AniSpeed = Animator.StringToHash("AniSpeed");
 
+        
+
         private void Awake()
         {
             mAnimator = GetComponent<Animator>();

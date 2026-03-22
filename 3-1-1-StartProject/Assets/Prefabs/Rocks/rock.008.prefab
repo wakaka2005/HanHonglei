@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 2644789024090214310}
   - component: {fileID: 2887006144723601669}
   - component: {fileID: 7785538869732214963}
-  - component: {fileID: -4052888584158824932}
+  - component: {fileID: 2460058450581640018}
   m_Layer: 0
   m_Name: rock.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2644789024090214310
 Transform:
@@ -26,14 +26,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4514354318328058253}
-  m_LocalRotation: {x: -0.0000049097735, y: -0.0056488975, z: -0.00000007235465, w: 0.9999841}
+  m_LocalRotation: {x: -0.000008800775, y: -0.005646038, z: -0.000000049690303, w: 0.9999841}
   m_LocalPosition: {x: -4.326601, y: 0.48093772, z: 1.5048451}
-  m_LocalScale: {x: 0.47719157, y: 2.8092742, z: 0.9999996}
+  m_LocalScale: {x: 1.6949333, y: 12.178492, z: 1.8484994}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.001, y: -0.647, z: 0}
 --- !u!33 &2887006144723601669
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-4052888584158824932
+--- !u!64 &2460058450581640018
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,9 +92,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4514354318328058253}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8683706554321225031, guid: 4faae203a90f361488e8e83874085e4b, type: 3}
